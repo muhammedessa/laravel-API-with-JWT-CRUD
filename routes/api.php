@@ -17,7 +17,9 @@ use Illuminate\Http\Request;
 //     return $request->user();
 // });
 
-
+Route::get('/', function () {
+    return view('welcome');
+});
 
 Route::post('user/register', 'APIRegisterController@register');
 
