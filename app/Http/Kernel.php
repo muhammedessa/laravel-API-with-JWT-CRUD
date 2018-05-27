@@ -63,3 +63,4 @@ class Kernel extends HttpKernel
         'jwt.refresh'=> 'Tymon\JWTAuth\Middleware\RefreshToken',
     ];
 }
+
